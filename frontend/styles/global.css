@@ -1,0 +1,93 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+h1 {
+    font-size: 40px;
+}
+h2 {
+    font-size: 50px;
+}
+a {
+    cursor: pointer;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    height: 60px;
+    background: white;
+    border-bottom: 1px solid lightgrey;
+    position: fixed;
+    padding: 0px;
+}
+
+#search-reveal {
+    display: none;
+    height: 25px; 
+    width: 25px;
+    cursor: pointer;
+}
+
+.search {
+    float: left;
+    width: 40%;
+    max-width: 500px;
+    display: flex;
+}
+#search {
+    display: block !important;
+}
+
+.small-grey {
+    color:grey; 
+    font-size: 80%; 
+    margin-top: -10px;
+}
+
+.hidden {
+    display: none;
+}
+.no-click {
+    pointer-events: none;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 10px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+  @media (max-width: 600px) {
+    .search {
+        display: none !important;
+        width: 60%;
+    }
+    #search-reveal {
+        display: inline-block;
+    }
+    .notification-container {
+        width: 90%;
+    }
+  }
+

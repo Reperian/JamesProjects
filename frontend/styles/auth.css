@@ -1,0 +1,134 @@
+
+.div-auth {
+    position: center;
+    width: 1000px;
+    margin: auto;
+    display:flex;
+    flex-direction: row;
+    height: 100%;
+    background: transparent;
+}
+.login-logo {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px; 
+    margin-top: 20px;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: transparent;
+    text-align: left;
+}
+.signup-container {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    background: transparent;
+    text-align: center;
+}
+.login-form {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+}
+.login-form .form-control {
+    width: 80%;
+}
+.signup-form {
+    width: 500px;
+    position: center;
+    margin: auto;
+    margin-top: 0%;
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    text-align: center;
+}
+.auth-image {
+    background: url(../assets/work.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: contain;
+    background-position-y: 10%;
+    margin-right: 20px;
+}
+.text {
+    width: 400px;
+    height: 40px;
+    border-radius: 4px;
+    margin: 10px 0px;
+    font-size: 20px;
+    padding-right: 0px;
+    padding-left: 10px;
+}
+.blue-button {
+    width: 80%;
+    height: 60px;
+    border-radius: 40px;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    background: #2977c9;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.blue-button:hover {
+    background: #0a66c2;
+}
+
+#signup-button {
+    cursor: pointer;
+    color: #0000ff;
+}
+#login-button {
+    cursor: pointer;
+    color: #0000ff;
+}
+@media (max-width: 1000px) {
+    .auth-image {
+        display: none;
+    }
+    .login-logo {
+        text-align: center;
+        justify-content: center;
+    }
+    .login-form {
+        width: 100%;
+        position: center;
+        margin: auto;
+        margin-top: 0%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .div-auth {
+        width: 100%;
+    }
+    .login-container {
+        width: 100%;
+        position: center;
+        margin: auto;
+        margin-top: 0px;
+        padding-left: 20px;
+        text-align: center;
+    }
+    .center-text {
+        display: block;
+    }
+}
+
+@media (max-width: 500px) {
+    .signup-form {
+        width: 100%;
+        position: center;
+        margin: auto;
+        margin-top: 0%;
+        text-align: center;
+    }
+}

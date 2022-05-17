@@ -1,0 +1,132 @@
+.user-container {
+    width: 70%;
+    margin: auto;
+    margin-bottom: 30px;
+    height: 1700px;
+    background: transparent;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 25% 75%;
+    justify-content: center;
+    padding: 30px;
+    padding-top: 80px;
+}
+.edit-button {
+    float: right;
+    top: 20px;
+    width: auto;
+    margin-right: 10px;
+}
+
+.back-button {
+    float: right;
+    top: 20px;
+    width: 80px;
+}
+
+.user-profile {
+    grid-column: 1;
+    grid-row: 1;
+    width: 95%;
+    max-height: 350px;
+    min-height: 350px;
+    padding: 30px;
+    margin: 30px;
+    border-radius: 10px;
+    background: white;
+}
+
+.user-jobs {
+    grid-column: 1;
+    grid-row: 2;
+    width: 95%;
+    align-self:flex-start;
+    padding: 30px;
+    margin: 30px;
+    max-height: 1000px;
+    min-height: 300px;
+    overflow: scroll;
+    border-radius: 10px;
+    background: white;
+}
+
+.user-job {
+    padding: 20px;
+}
+
+.edit-delete-buttons {
+    float: right;
+}
+
+.watcher-list {
+    grid-column: 2;
+    grid-row: 1;
+    background: white;
+    align-self:flex-start;
+    width: 70%;
+    padding: 30px;
+    margin: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.watcher {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.profile-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    float: right;
+    right: 130px;
+    border-radius: 20px;
+    padding-left: 5px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.profile-button:hover {
+    background: lightgrey;
+}
+
+
+#self-profile {
+    float:right; 
+    position: relative;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+}
+
+.edit-profile-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 60px;
+}
+.edit-profile {
+    width: 600px;
+    height: 700px;
+    padding: 30px;
+    margin: 30px;
+    border-radius: 10px;
+    background: white;
+}
+
+@media (max-width: 1000px) {
+    .user-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: auto;
+    }
+    .watcher-list {
+        width: 95%;
+    }
+}

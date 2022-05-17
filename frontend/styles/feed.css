@@ -1,0 +1,156 @@
+.feed {
+    width: 100%;
+    height: 100%;
+}
+
+.feed-container {
+    width: 100%;
+    height: auto;
+    background: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.feed-container span {
+    cursor:pointer;
+}
+
+.feed-main {
+    width: 600px;
+    margin: 20px 0px;
+    height: auto;
+}
+
+.job {
+    width: 100%;
+    background: white;
+    border-radius: 10px;
+    height: auto;
+    border: 0.1px solid lightgrey;
+    padding: 10px;
+    margin: 20px 0px;
+}
+.job-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.btn-outline-secondary {
+    border:none;
+    width: 50%;
+
+}
+
+.job-image {
+    width: 100%; 
+    display: block;
+}
+
+.liked {
+    color: white;
+    background: royalblue;
+}
+
+.btn-outline-secondary:hover {
+    background: royalblue;
+}
+
+.likes-container {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.likes {  
+    width: 500px;
+    height: 500px;
+    align-self: center;
+    background: white;
+    border-radius: 10px;
+}
+
+.user-like {
+    padding: 20px;
+}
+
+.like-border {
+    margin-top: 10px;
+    height: 1px;
+    width: 100%;
+    background: grey;
+}
+
+.btn-close {
+   margin: 20px; 
+}
+
+.post-comment {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0px;
+}
+.post-comment-text {
+    border-radius: 10px;
+}
+
+.post-comment-button {
+    width: auto;
+}
+
+.comment-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.comment {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background: #f2f2f2;
+    margin: 0px 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.profile-link {
+    width: min-content;
+}
+
+.profile-link:hover {
+    text-decoration:underline;
+    color: royalblue;
+    cursor: pointer;
+}
+
+.profile-pic-small {
+    width: 35px; 
+    height: 35px; 
+    border-radius: 50%; 
+    margin-right: 10px;
+}
+
+.addjob-page {
+    width: 100%;
+    height: 100%;
+    background: #0a66c2;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 60px;
+}
+.addjob-container {
+    width: 600px;
+    height: 700px;
+    background: white;
+    padding: 30px;
+    margin: 30px;
+    border-radius: 10px;
+}
