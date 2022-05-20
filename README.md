@@ -8,3 +8,10 @@ Then in backend folder, run: `npm install`
 In backend folder, run : `npm start`
 
 In root folder, run: `$ npx http-server frontend -c 1 -p [port]` where port can be any number
+
+## Credits
+### Backend by:
+UNSW
+
+### Frontend by:
+Me
